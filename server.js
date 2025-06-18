@@ -228,6 +228,8 @@ app.use(express.static(frontendPath)); */
   res.sendFile(path.join(frontendPath, 'index.html'));
 }); */
 
+app.get('/' , {message : 'Are you lost baby gurl?'})
+
 // Use server.listen instead of app.listen
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
