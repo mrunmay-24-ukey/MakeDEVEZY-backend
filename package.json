@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": " nodemon server.js",
     "dev2": "npm i && cd.. && cd frontend && npm run build && cd.. && cd backend && nodemon server.js",
