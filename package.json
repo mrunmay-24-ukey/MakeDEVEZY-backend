@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": " nodemon server.js",
-    "dev2": "npm i && cd.. && cd frontend && npm run build && cd.. && cd backend && nodemon server.js"
+    "dev2": "npm i && cd.. && cd frontend && npm run build && cd.. && cd backend && nodemon server.js",
+    "start":"node server.js"
   },
   "keywords": [],
   "author": "",
