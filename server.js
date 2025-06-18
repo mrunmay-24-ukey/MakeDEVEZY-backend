@@ -228,7 +228,9 @@ app.use(express.static(frontendPath)); */
   res.sendFile(path.join(frontendPath, 'index.html'));
 }); */
 
-app.get('/' , {message : 'Are you lost baby gurl?'})
+app.get('/', (req, res) => {
+  res.json({ message: 'Are you lost baby gurl?' });
+});
 
 // Use server.listen instead of app.listen
 server.listen(PORT, () => {
